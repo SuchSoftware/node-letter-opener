@@ -1,0 +1,18 @@
+nav.navbar.navbar-default(role="navigation")
+  .navbar-header
+    button.navbar-toggle(type="button",data-toggle="collapse",data-target=".navbar-ex1-collapse")
+      span.sr-only Toggle navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    a.navbar-brand(href="/") 
+      letter-opener
+
+  .collapse.navbar-collapse.navbar-ex1-collapse
+    ul.nav.navbar-nav
+      li(class="#{active === 'home' ? 'active' : ''}")
+        a(href="#{root}") Messages 
+      li(class="#{active === 'about' ? 'active' : ''}")
+        a(href="#{root}/about") About
+      li(class="#{active === 'feedback' ? 'active' : ''}")
+        a(href="#{root}/feedback") Feedback
