@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 
+    i.glyphicon.glyphicon-envelope
+    | #{message.id}
+  pre= message.payload
