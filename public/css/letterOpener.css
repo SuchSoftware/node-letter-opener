@@ -6,3 +6,7 @@
 i.glyphicon {
   margin-right: 15px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/dev\/source\/suchsoftware\/letter-opener\/stylesheets\/letterOpener\.less}line{font-family:\000039}}
+.tab-pane {
+  padding: 15px;
+}

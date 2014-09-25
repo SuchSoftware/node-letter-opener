@@ -26,6 +26,7 @@
     "express": "^4.9.4",
     "jade": "^1.7.0",
     "less-middleware": "^1.0.4",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "mailparser": "^0.4.6"
   }
 }
