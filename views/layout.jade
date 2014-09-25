@@ -19,7 +19,10 @@ html.no-js(lang='en')
           ul.nav.nav-pills.nav-stacked
             - each msg in messages
               li(class=(message && message.id === msg.name ? 'active' : ''))
-                a(href="#{root}/#{msg.name}")= msg.name
+                a(href="#{root}/#{msg.name}")
+                  = msg.name
+                  br
+                  small: em= msg.mtime
         .col-md-9
           block content
 
