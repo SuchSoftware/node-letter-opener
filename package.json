@@ -1,6 +1,6 @@
 {
   "name": "letter-opener",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "View emails sent via Nodemailer's pickup transport in your browser",
   "main": "lib/letterOpener.js",
   "scripts": {
