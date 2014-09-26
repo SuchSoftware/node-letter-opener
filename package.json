@@ -1,6 +1,6 @@
 {
   "name": "letter-opener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "View emails that are stored in files (e.g. Nodemailer's pickup transport) right in your browser",
   "main": "lib/letterOpener.js",
   "scripts": {
