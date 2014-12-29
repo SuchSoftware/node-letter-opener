@@ -23,7 +23,6 @@
   "homepage": "http://suchsoftware.com/node-letter-opener",
   "dependencies": {
     "async": "^0.9.0",
-    "lodash": "^2.4.1",
     "mailparser": "^0.4.6"
   }
 }
